@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  min-height: 100vh;
+}
+
+.App h1 {
+  margin-bottom: 30px;
+  color: #61dafb;
+}
+
+.player-card, .filtered-player-card {
+  transition: transform 0.2s;
+}
+
+.player-card:hover, .filtered-player-card:hover {
+  transform: scale(1.05);
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
